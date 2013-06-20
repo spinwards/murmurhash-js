@@ -9,6 +9,26 @@ More information about these algorithms can be found at:
 *	[MurmurHash Homepage](http://sites.google.com/site/murmurhash/)
 *	[Wikipedia Entry on MurmurHash](http://en.wikipedia.org/wiki/MurmurHash) 
 
+## Install
+
+    npm install murmur-hash
+    
+## API
+
+```javascript
+var murmur = require("murmur-hash")
+```
+
+### Methods
+
+#### `murmur.murmur2(key, seed)`
+Runs the murmur2 hash algorithm on the string `key` with initial seed `seed`.
+
+#### `murmur.murmur3(key, seed)`
+Runs the murmur3 hash algorithm on the string `key` with initial seed `seed`.
+
+**Note** `require("murmur-hash")` is the same as `murmur.murmur3`
+
 ## License (MIT)
 
 Copyright (c) 2011 Gary Court

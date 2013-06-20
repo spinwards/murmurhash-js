@@ -48,3 +48,7 @@ function murmurhash2_32_gc(str, seed) {
 
   return h >>> 0;
 }
+
+if(typeof module !== undefined) {
+  module.exports = murmurhash2_32_gc
+}
