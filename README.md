@@ -11,12 +11,12 @@ More information about these algorithms can be found at:
 
 ## Install
 
-    npm install murmur-hash
+    npm install murmurhash-js
     
 ## API
 
 ```javascript
-var murmur = require("murmur-hash")
+var murmur = require("murmurhash-js")
 ```
 
 ### Methods
