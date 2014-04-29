@@ -1,6 +1,6 @@
 {
   "name": "murmurhash-js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Native JS murmur hash implementation",
   "main": "index.js",
   "scripts": {
