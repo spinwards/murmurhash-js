@@ -2,34 +2,24 @@
 
 An optimized JavaScript implementation of the MurmurHash algorithms.
 
-These algorithms take a JavaScript string (and a seed), and quickly create a non-cryptographic 32-bit hash from it. And by quick I mean sub-millisecond performance.
+These algorithms take a JavaScript string or Buffer (and a seed), and quickly create a non-cryptographic 32-bit hash from it.
 
 More information about these algorithms can be found at:
 
 *	[MurmurHash Homepage](http://sites.google.com/site/murmurhash/)
 *	[Wikipedia Entry on MurmurHash](http://en.wikipedia.org/wiki/MurmurHash) 
 
-## Install
-
-    npm install murmurhash-js
-    
 ## API
-
-```javascript
-var murmur = require("murmurhash-js")
-```
 
 ### Methods
 
 #### `murmur.murmur2(key, seed)`
 Runs the murmur2 hash algorithm on the string `key` with initial seed `seed`.
 
-#### `murmur.murmur3(key, seed)`
+#### `murmur(key, seed)`, `murmur.murmur3(key, seed)`
 Runs the murmur3 hash algorithm on the string `key` with initial seed `seed`.
 
-**Note** `require("murmur-hash")` is the same as `murmur.murmur3`
-
-## License (MIT)
+## Original License (MIT)
 
 Copyright (c) 2011 Gary Court
 
