@@ -25,5 +25,10 @@
   "gitHead": "72aabce3f52cb8f16245692a69fd35951e165af0",
   "bugs": {
     "url": "https://github.com/b3nj4m/murmurhash-js/issues"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "lodash": "^3.8.0",
+    "mocha": "^2.2.4"
   }
 }
