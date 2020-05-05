@@ -4,7 +4,7 @@
   "description": "JS murmur hash implementation",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "tsc && mocha ./test/test.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,9 @@
     "murmur2",
     "murmur3"
   ],
-  "author": "Ben Robbins <ben.robbins@gmail.com>",
+  "author": "Caleb Moore",
   "contributors": [
+    "Ben Robbins <ben.robbins@gmail.com>",
     "Gary Court"
   ],
   "license": "MIT",

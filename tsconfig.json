@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "ES6",
+        "module": "UMD",
+        "lib": [
+            "ES6"
+        ],
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "dist/es6",
+        "rootDir": "src",
+        "composite": true,
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": false,
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "downlevelIteration": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
