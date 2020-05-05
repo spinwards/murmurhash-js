@@ -1,8 +1,8 @@
 # MurmurHash.js
 
-An optimized JavaScript implementation of the MurmurHash algorithms.
+An optimized Typescript implementation of the MurmurHash algorithms.
 
-These algorithms take a JavaScript string or Buffer (and a seed), and quickly create a non-cryptographic 32-bit hash from it.
+These algorithms take an ArrayBuffer, UInt8Array, or string and quickly create a non-cryptographic 32-bit hash from it.
 
 More information about these algorithms can be found at:
 
@@ -13,11 +13,8 @@ More information about these algorithms can be found at:
 
 ### Methods
 
-#### `murmur.murmur2(key, seed)`
-Runs the murmur2 hash algorithm on the string `key` with initial seed `seed`.
-
-#### `murmur(key, seed)`, `murmur.murmur3(key, seed)`
-Runs the murmur3 hash algorithm on the string `key` with initial seed `seed`.
+#### `murmur(key: ArrayBuffer | Uint8Array | string, seed: number): number`
+Runs the murmur3 hash algorithm on the ArrayBuffer | Uint8Array | string `key` with initial seed `seed`.
 
 ## Original License (MIT)
 
