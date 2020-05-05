@@ -1,5 +1,5 @@
 var _ = require('lodash');
-var murmur = require('../dist/es6/index');
+var murmur = require('../dist/umd/index');
 var expect = require('chai').expect;
 var data = require('../testData.json');
 

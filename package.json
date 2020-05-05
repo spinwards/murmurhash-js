@@ -1,19 +1,22 @@
 {
-  "name": "murmur-hash-js",
+  "name": "murmur3-ts",
   "version": "1.0.0",
-  "description": "JS murmur hash implementation",
+  "description": "TS murmur hash implementation",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && mocha ./test/test.js"
+    "build": "tsc --build tsconfig.json && tsc --build tsconfig.umd.json",
+    "buildes6": "tsc --build tsconfig.json",
+    "buildumd": "tsc --build tsconfig.umd.json",
+    "test": "tsc --build tsconfig.umd.json && mocha ./test/test.js",
+    "refreshVSToken": "vsts-npm-auth -config .npmrc"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/b3nj4m/murmurhash-js.git"
+    "url": "git://github.com/spinwards/murmurhash-js.git"
   },
   "keywords": [
     "murmur",
     "hash",
-    "murmur2",
     "murmur3"
   ],
   "author": "Caleb Moore",
@@ -23,9 +26,9 @@
   ],
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "72aabce3f52cb8f16245692a69fd35951e165af0",
+  "gitHead": "b1279ac5409ee80649dfd4eb0447be4c07aefda4",
   "bugs": {
-    "url": "https://github.com/b3nj4m/murmurhash-js/issues"
+    "url": "https://github.com/spinwards/murmurhash-js/issues"
   },
   "devDependencies": {
     "chai": "^2.3.0",
